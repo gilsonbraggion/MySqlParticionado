@@ -14,3 +14,6 @@ PARTITION BY RANGE (YEAR(data_registro))
     		table_rows  
     from information_schema.partitions 
     	where table_name='registro';
+
+-- Documentação de referência.
+-- https://www.performancedb.com/blog/particionamento-de-tabelas-no-mysql/
